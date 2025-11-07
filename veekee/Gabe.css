@@ -1,0 +1,127 @@
+body{
+    background-color: pink;
+}
+
+.Gabe{
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    padding-left: 5px;
+    margin: 20px;
+    width: 700px;
+    height: 100px;
+    text-align: right;
+    color: red;
+    transition: all 2s;
+}
+.Gabe:hover{
+    background-color: purple;
+    text-align: left;
+    color: black;
+}
+.ayi{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    border-bottom-left-radius:100px;
+    border-top-left-radius:100px ;
+    transition: all 3s;
+
+}
+.ayi:hover{
+    background-color: black;
+    border-bottom-right-radius: 100px;
+    border-top-right-radius:100px ;
+
+}
+.mi-rey{
+    background-color: black;
+    width: 400px;
+    height: 200px;
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    margin-top: 50px;
+    transition: all 3s;
+}
+.mi-rey:hover{
+    background-color: red;
+    border-top-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+}
+.love{
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to right, red,black);
+    padding: 20px;
+}
+.sexy-asf{
+    width: 200px;
+    height: 100px;
+    background: linear-gradient(45deg, black, purple);
+}
+.baddie{
+    width: 400px;
+    height: 200px;
+    background: linear-gradient(90deg,black, pink,red);
+}
+.pookie{
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(45deg,black,pink,red,black,pink,red);
+}
+.gradient-box{
+    width: 200px;
+    height: 100px;
+    background: linear-gradient(to right,red,black,purple);
+    transition: all 2s ease;
+    padding: 20px;
+}
+.gradient-box:hover{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: radial-gradient(circle, red,black,purple);
+}
+.radial-gradient{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background: radial-gradient(circle,pink,black,red);
+    transition: all 5s ease;
+}
+.radial-gradient:hover{
+     width: 150px;
+     height: 150px;
+     border-radius: 100%;
+     background: radial-gradient(circle,red,black,pink);
+}
+.conic-gradient{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background: conic-gradient(from 90deg,red,black,pink);
+}
+.my-love{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: red;
+}
+.ayiba{
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: rgb(36, 1, 1);
+}
+
+
+
+
+
+
+
+
+
+
+

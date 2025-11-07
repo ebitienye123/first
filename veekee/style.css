@@ -1,0 +1,138 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 10px 20px;
+}
+
+.logo{
+    width: 50px;
+    height: auto;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.lists{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.lists a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    transition: all 0.3s ease;
+    
+}
+.lists a:hover{
+    background-color: white;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+.hero-section{
+    text-align: center;
+    font-family: 'Segoe  UI',Tahona, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(219, 139, 139);
+    height: 300px;
+    padding-top: 50px;
+    color: white;
+}
+.image-container{
+    display: flex;
+    justify-content: center;
+}
+
+.image-container img{
+   width: 250px;
+   height: 400;
+   margin: 10px; 
+   object-fit: cover;
+}
+.gallery{
+    text-align: center;
+}
+.card{
+    background-color: rgb(236, 144, 144);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(80, 24, 24);
+    width: 300px;
+    margin: 20px auto;
+    text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.card-head img{
+    width: 100%;
+    border-radius: 10px;
+    height: 500px;
+}
+.card-footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 0 0 10px 10px;
+}
+.cards-container{
+    display: flex;
+}
+.card-body{
+    margin: 15px;
+}
+.about-us{
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+.about-us img{
+    height: 450px;
+    width: 450px;
+    margin: 20px;
+}
+.about-us-text{
+    padding: 10px;
+}
+.about-us-text p{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.btn {
+    color: white;
+    border-radius: 30px;
+    background-color: red;
+    text-decoration: none;
+    border: none;
+}
+
+.card{
+    background-color: rgb(236, 144, 144);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(80, 24, 24);
+    width: 300px;
+    margin: 20px auto;
+    text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.card-head img{
+    width: 100%;
+    border-radius: 10px;
+    height: 500px;
+}
+.card-footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 0 0 10px 10px;
+}
+.cards-container{
+    display: flex;
+}
+.card-body{
+    margin: 15px;
+}
